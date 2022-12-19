@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 110px;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header img{
+  width: 115px;
+  height: 83px;
+  padding-left: 30px;
+}
+header h1{
+  flex-grow: 2;
+  padding-left: 10px;
+}
+nav{
+  padding-right: 30px;
+}
+ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+li{
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#h1{
+  flex-grow: 2;
+}
+main{
+  display: flex;
+  height: calc(100vh - 110px);
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+#cartaz {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.filmes {
+  width: 300px;
+  height: 600px; 
+  border: 2px solid purple;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.filmes p{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.tamanho{
+  width: 200px;
+}
+article p {
+  color: green;
+}
+table {
+  width: 300px;
+}
+table, tr, th, td {
+  border-collapse: collapse;
+  text-align: center;
+}
+td, th {
+  border: 1px solid purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+th {
+  font-size: 22px;
+}
+#titulo {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  top: 10px;
+  left: 105px;
+}
+#tabela {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  height: 50px;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+b{
+  color: red;
+}
+#darkred{
+  color: darkred;
+}
+.green{
+  color: green;
+}
+.close {
+  width: 22px;
+  height: 22px;
+}
+#close-spiderman{
+  position: absolute;
+  bottom: 735px;
+  left: 373px;
+  cursor: pointer;
+}
+#close-batman{
+  position: absolute;
+  bottom: 735px;
+  left: 882px;
+  cursor: pointer;
+}
+#close-xmen{
+  position: absolute;
+  bottom: 735px;
+  left: 1391px;
+  cursor: pointer;
+}
+#close-carros{
+  position: absolute;
+  bottom: 735px;
+  left: 1900px;
+  cursor: pointer;
+}
+#close-lanterna{
+  position: absolute;
+  bottom: 735px;
+  left: 2409px;
+  cursor: pointer;
+}
